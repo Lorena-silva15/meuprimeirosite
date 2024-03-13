@@ -1,1 +1,1 @@
-https://github.com/Lorena-silva15/meuprimeirosite
+https://github.com/Lorena-silva15/meuprimeirosite.git
