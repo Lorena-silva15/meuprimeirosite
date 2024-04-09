@@ -1,5 +1,10 @@
-h1 {font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;color: black;}
+body{background-color: #5fa8d3}
+h1 { font-size: 5vw;font-family:Georgia, 'Times New Roman', Times, serif;text-align: center;color: black;}
 h2{font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;color: black ;background-color:  #cae9ff;}
-h3{color:#1b4965 ;}
-table{; color: white;background-color: #62b6cb;}
-ul{color: antiquewhite; text-align: left;font-family:lucida ;}
+h3{ font-size:2vw;color: #103a53  ;}
+table{font-size: 1.75vw; color: white;background-color: #62b6cb;}
+ul{ font-size: 2vw; text-align: left;font-family:lucida ;}
+img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;;}
