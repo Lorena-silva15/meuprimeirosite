@@ -60,3 +60,8 @@ table {
 }
 
 .cabeçalho{padding: 3%;}
+.rodape{padding: 3%;}
+
+h1,h2{line-height: 3}
+p{line-height: 1.5;}
+ul,li{line-height: 1.50;}
