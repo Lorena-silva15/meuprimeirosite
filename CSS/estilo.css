@@ -6,11 +6,11 @@ nav{background-color: aqua;}
 
 .carl{float: left;
     width:50% ;
-    margin-right: auto;
-margin-top: 2%; }
+    margin-right:10%;
+margin-top: 2%; ;}
 
 .carlF{margin-top: 20%;
-      margin-left: 5%;}
+      margin-left: 10%;text-align: right}
 
 .russell{float: right;
     width:40% ;
