@@ -49,3 +49,6 @@ p{margin: 3%;
 }
 
 li{display: inline;margin: 4%;}
+
+a{cursor: pointer;}
+ header nav ul li a
