@@ -1,32 +1,6 @@
 
 nav{background-color: aqua;}
 
-.casa{float: center;
-    width: 100%;}
-
-.carl{float: left;
-    width:50% ;
-    margin-right:10%;
-margin-top: 2%; ;}
-
-.carlF{margin-top: 20%;
-      margin-left: 10%;text-align: right}
-
-.russell{float: right;
-    width:40% ;
-    margin-top: 20%;}
-
-.russelle{margin-top:  6%;
-margin-right: 27%;}
-
-
-.esquerda{margin-left: 40%;
-    margin-top: 10%;
-     }
-
-.direita{margin-bottom: 7%;
-            margin-left: 10%;}
-
 .personagem{text-align: center;
 margin-bottom: 13%; 
 margin-right: 0%;}
@@ -52,3 +26,7 @@ li{display: inline;margin: 4%;}
 
 a{cursor: pointer;}
  header nav ul li a
+
+ .carl .ellie .dug .dogs {size: 20%; 
+ }
+
