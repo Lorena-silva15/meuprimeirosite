@@ -64,18 +64,23 @@ div{
 }
 
 p{
-    font-size: 150%;
+    font-size: 200%;
 }
 
 footer{
 
     background-color: rgb(97, 179, 255);
-    margin-top: 8%;
+    ;
+    padding: 1%;
+    font-size: 140%;
+  margin-top: 2%;
+ 
 }
 
 .rodape{
 
     text-align: center;
+    font-size: 110%;
 }
 
 .logo{

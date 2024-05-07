@@ -66,37 +66,55 @@ li{display: inline;
     margin: auto;
     position: relative;
     color:white;
+    align-content: flex-end;
     text-align: left;
-    column-rule: 2;
+    
 }
 
 
 
 .balao{
     width: 100%;
+    position: relative;
     
 }
 .esquerda{
     position: absolute;
-    text-align: center;
-    top: 0%;
-    left: 0%;
-    font-size: 150%;
+    align-content: flex-start;
+    flex-direction: row;
+    text-align: left;
+    width: 38%;
+    height: 5%;
+    top: 2%;
+    left: 2%;
+    font-size: 136%;
+    margin-top: 9%;
+    max-width: 70%;
     
     
     
 }
-
-
 
 
 .imgp{
-    display: flex;
-    justify-content: end
-   
-    margin: 2%;
- 
+    width: 40%;
 }
+
+
+
+
+ 
+
+
+.esquerdab{
+  display: flex;
+  width: 50%;
+  font-size: 145%;
+  
+  
+}
+
+
 
 .pixar{
     display: flex;
@@ -112,9 +130,10 @@ li{display: inline;
 
 footer{
     background-color:  rgb(133, 196, 255);;
-    padding: 5%;
-
+    padding: 2%;
+    font-size: 140%;
   margin-top: 2%;
+ 
 }
 
 
@@ -124,5 +143,8 @@ footer{
 }
 
 .rodape{
-    width: 500%;
+    font-size: 110%;
+    text-align: center;
 }
+
+

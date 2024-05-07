@@ -95,16 +95,29 @@ nav{
     font-size:  200%;
     text-align: center;
     
-    padding-bottom: 2%
+    padding-bottom: 3%
      ;
 }
 
 footer{
    
     background-color: rgb(79, 125, 177);
+    
+    padding: 3%;
+    height: 11110%;
+  margin-top: 2%;
+
+
 }
 
 .logo{
     margin-left: 35%;
     width: 25%;
+}
+
+.rodape{
+    font-size: 140%;
+    text-align: center;
+    color: aliceblue;
+    
 }
