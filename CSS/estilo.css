@@ -1,32 +1,128 @@
 
-nav{background-color: aqua;}
+body{
+    background-color: #1672c7c5;
+}
+
+
+
 
 .personagem{text-align: center;
 margin-bottom: 13%; 
 margin-right: 0%;}
 
 
-h1{margin-bottom: 15%;
+h1{
     margin-top: 5%;
+   margin-bottom: 5%; 
     text-align: center;
     font-size:270%;
-    font-family: montserra;}
+    font-family: montserra;
+    color: black;    
+}
 
 h2{font-size: 200%;}
 
-p{font-size: 100%;}
-.menu{text-align: center;}
-section{margin: 5%;}
-p{margin: 3%;
+p{font-size: 100%;
+   
     margin-left: 10%;
     margin-right: 7%;
 }
 
-li{display: inline;margin: 4%;}
 
-a{cursor: pointer;}
- header nav ul li a
 
- .carl .ellie .dug .dogs {size: 20%; 
- }
+.menu{text-align: center;
+    
+  
+}
+header{
+  background-color: rgb(133, 196, 255);
 
+    
+}
+
+
+li{display: inline;
+  
+}
+
+
+ 
+
+ button{
+    margin-right: 1%; 
+    border: 0;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    background-color:  rgb(213, 235, 255);
+    width: 18%;
+    height: 5%;
+    font-size: 120%;
+    cursor: pointer
+    }
+
+
+.sobre {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    color:white;
+    text-align: left;
+    column-rule: 2;
+}
+
+
+
+.balao{
+    width: 100%;
+    
+}
+.esquerda{
+    position: absolute;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    font-size: 150%;
+    
+    
+    
+}
+
+
+
+
+.imgp{
+    display: flex;
+    justify-content: end
+   
+    margin: 2%;
+ 
+}
+
+.pixar{
+    display: flex;
+    ;
+    text-align: left;
+    color: black;
+    font-size: 150%;
+    margin: 3%;
+    width: 80%;
+
+}
+
+
+footer{
+    background-color:  rgb(133, 196, 255);;
+    padding: 5%;
+
+  margin-top: 2%;
+}
+
+
+.logo{
+    margin-left: 35%;
+    width: 25%;
+}
+
+.rodape{
+    width: 500%;
+}
