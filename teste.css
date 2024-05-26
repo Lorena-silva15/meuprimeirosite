@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    max-width: 100%;
+    flex-flow: row wrap;
+    flex-grow: 1;
+   
+}
