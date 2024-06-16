@@ -1,8 +1,9 @@
 
 body{
-    background-color: #1672c7c5;
+    background-color:   rgb(73, 149, 235);
     height: fit-content;
-    
+   
+  
 }
 
 main{
@@ -16,8 +17,12 @@ main{
 
 }
 
+
+
 nav{
 height:  fit-content;
+;
+
 }
 
 .logo{
@@ -25,10 +30,15 @@ height:  fit-content;
     margin-left: 35%
 }
 
-.persona,.persona1{
+.persona{
     font-size: 120%;
     margin: 3%;
-    width: 30%;
+    width: 90%;
+     margin-bottom: 16%;
+    display: flex;
+    flex-direction: row;
+    border: 1px;
+    
 }
    
 .persona2{
@@ -58,6 +68,11 @@ height:  fit-content;
     
 }
 
+.imgt{
+    width: 50%;
+    
+}
+
 
     
 a{
@@ -69,53 +84,84 @@ img{
    
   
 }
-
-
+.logo{
+    margin-bottom: 4%;
+}
 
 .quad{
     width: 66%;
 }
 
 h1{
-    font-size: 400%;
+    font-size: 300%;
     text-align: center
     ;
- ;
+ ;margin-bottom: 6%;
+ margin-top: 6%;
 }
 
+.h1t{
+    font-size: 230%;
+}
 
+button,ul,li,a{
+    display: flex;
+
+    text-align: center
+}
 
 .hh2{
-    font-size: 110%;
+    font-size: 200%;
     text-align: center;
     height: 20%;
+    margin-top: 5%;
+    
 }
 p{
     font-size: 110%;
     float: left;
-    
+  
     margin-left: 2%;
     margin: 5%;
 }
+
+
+.pt{
+    font-size: 160%;
+    margin-left: 4%;
+    margin-top: 3%;
+    
+}
 button{
     border: none;
-    width: 20%;
-    height: 30%;
+    width:fit-content;
+    height: 100%;
     margin-bottom: 3%;
-    font-size: 100%;
-    background-color: rgb(136, 208, 250);
+    font-size: 90%;
+   background-color: rgba(179, 252, 255, 0);
+
+    color: #1b98ff;
     ;
-}
+   }
+  
+   
+
+
+  
+
+
+
 
 header{
     background-color: rgba(179, 252, 255, 0.678);
-    ;
+    
     height: fit-content;
 }
 
 footer{
     text-align: center;
-    height: 20%;
+    height: fit-content;
+    background-color: #155c96f6;
 
     
 
@@ -123,14 +169,8 @@ footer{
     font-size: 150%;
 }
 
-.rodape{
-    text-align: center;
-    height: fit-content;
 
-   
-    font-size: 150%;
 
-}
 
 .sobre{
     width: 100%;
@@ -144,63 +184,173 @@ footer{
 .sobre1{
     width:100% ;
     display: flex;
-    flex-wrap: wrap;
+    
    ;
 }
 
-button{
-    color: #1672c7c5;
+.titulos{
+    margin-top: 10%;
+    font-size: 150%;
 }
-
-
 
 .intro{
     float: left;
     width: 100%; 
     height: 50%;
+    font-size: 110%;
     background-color: rgb(73, 149, 235);
     margin-bottom: 5%;
 }
 
-
-.titulo{height: 50%;
-font-size: 300%;
-margin-bottom: 3%;
+.data{
+    background-image: linear-gradient(rgba(129, 179, 236, 0.918),rgb(64, 146, 240));
+    font-size: 150%;
 }
 
 
+.gen{background-image: linear-gradient(rgba(69, 122, 182, 0.801),rgb(73, 149, 235));
+    font-size: 150%;
+    
+
+}
+
+
+
 .imgc{
-    width: 40%;
+    width: 35%;
     height: auto;
+    margin-right: 5%;
 }
 
 .text{
     width: 50%;
     font-size: 240%;
-    margin: 3%;
+    margin-left: 20%;
 }
 
-.rodape1{
-    text-align: center;
-    height: 30%;
-    font-size:300%;
-    margin-top: 3%;
+.botao{
+    align-self: center;
+}
 
+    
+
+
+
+table,td,th{
+    margin: 2%;
+    border: 100% solid;
+    border-color: black;
+   
+}
+
+td{font-size: 130%;
+    margin: 2%;
+    text-align: center; 
+   
+
+}
+.tabela{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 5%;
+    margin-top: 9%;
+}
+
+.imgt{
+    width: 150%;
+    margin-left: 5%;
+}
+
+.botao{
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+@media(max-width:1110px){
+button,ul,li{
+    display: flex;
+    flex-direction: column;
+ 
+    font-size:100% ;
+    text-wrap: wrap;
+   width: 45%;
+}
+body{
+    
+    width: 100%;
+    height: fit-content;
+}
+
+footer{
+    height: 10%;
+    font-size: 100%;
+}
+html{
+    width: fit-content;
+}
+h1{
+    font-size:  300%;
+
+
+}
+.persona2{
+    font-size: 70%;
+}
+tr,th,td,{
+    font-size: 100%;
+    padding: 5%;
+
+    
+
+}
+
+
+li{
+    font-size: 85%;
+    margin-bottom: 3%;
+}
+.pt{
+    font-size: 100%;
+}
+    
+
+   
+.titulo{
+    font-size: 180%;
 }
 
 .titulos1{
-    font-size: 220%;
-}
+margin-bottom: 6%;
 
+}
 td{
-    font-size: 130%;
-    margin: 2%;
-    text-align: center;
-
+    margin-right: 30%
 }
 
-table{
-    margin: 2%;
-   ;
+.tabela{
+    width: 100%;
+    border: 67%;
+    margin-top: 45%;
+}
+
+.imgt{
+    width: 35%;
+    height: 30%;
+
+}
+.text{
+    font-size: 120%;
+}
+
+.imgc{
+    width:45%;
+    margin-right: 5%;
+}
+
+.centro{
+   margin-left: 25%;
+}
+
 }
 
