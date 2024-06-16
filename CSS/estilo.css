@@ -248,7 +248,9 @@ footer{
     font-size: 300%;
 }
 
-
+.foto{
+    font-size: 120%;
+}
 
 table,td,th{
     margin: 2%;
