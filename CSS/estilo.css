@@ -17,7 +17,9 @@ main{
 
 }
 
-
+.container{
+    width: 100%;
+}
 
 nav{
 height:  fit-content;
@@ -93,7 +95,7 @@ img{
 }
 
 h1{
-    font-size: 300%;
+    font-size: 600%;
     text-align: center
     ;
  ;margin-bottom: 6%;
@@ -101,7 +103,7 @@ h1{
 }
 
 .h1t{
-    font-size: 230%;
+    font-size: 660%;
 }
 
 button,ul,li,a{
@@ -111,14 +113,14 @@ button,ul,li,a{
 }
 
 .hh2{
-    font-size: 200%;
+    font-size: 1000%;
     text-align: center;
-    height: 20%;
+    
     margin-top: 5%;
     
 }
 p{
-    font-size: 110%;
+    font-size: 550%;
     float: left;
   
     margin-left: 2%;
@@ -127,12 +129,13 @@ p{
 
 
 .pt{
-    font-size: 160%;
+    
+    font-size: 500%;
     margin-left: 4%;
     margin-top: 3%;
     
 }
-button{
+button,.botao,.botao2{
     border: none;
     width:fit-content;
     height: 100%;
@@ -144,9 +147,11 @@ button{
     ;
    }
   
-   
-
-
+botao
+.centro{
+    width: 100%;
+    height: 30%;
+}
   
 
 
@@ -185,6 +190,9 @@ footer{
     
     ;
 }
+.pixart{
+    font-size: 150%;
+}
 
 .sobre1{
     width:100% ;
@@ -206,7 +214,7 @@ footer{
     font-size: 110%;
     background-color: rgb(73, 149, 235);
     margin-bottom: 5%;
-    position: relative;
+    
     ;
     
 }
@@ -222,7 +230,6 @@ footer{
     
 
 }
-
 
 
 .imgc{
@@ -241,7 +248,9 @@ footer{
     align-self: center;
 }
 
-    
+.titulo{
+    font-size: 300%;
+}
 
 
 
@@ -266,17 +275,17 @@ td{font-size: 130%;
 }
 
 .imgt{
-    width: 150%;
+    width: 65%;
     margin-left: 5%;
 }
 
-.botao{
+.botao,.botao2{
     margin-left: 15%;
     text-align: center;
 }
 
 
-@media(max-width:1110px){
+@media(max-width:1550px){
 button,ul,li{
     display: flex;
     flex-direction: column;
@@ -320,7 +329,7 @@ li{
     margin-bottom: 3%;
 }
 .pt{
-    font-size: 100%;
+    font-size: 120%;
 }
     
 
@@ -344,7 +353,7 @@ td{
 }
 
 .imgt{
-    width: 35%;
+    width: 50%;
     height: 30%;
 
 }
@@ -363,8 +372,8 @@ td{
 
 }
 
-<<<<<<< HEAD
-=======
+
+
 table{
     margin: 2%;
    ;
@@ -372,9 +381,9 @@ table{
 
 
 .foto{
-    position:absolute ;
+   
     left: 0%;
-    width: 50%;
+    width: 100%;
     top: 10%;
     ;
     font-size: 15px
@@ -385,4 +394,4 @@ table{
 h1{
     bottom: 10%;
 }
->>>>>>> 6dcf3b6b7b6c30e95d327b5338797394eb90774e
+
