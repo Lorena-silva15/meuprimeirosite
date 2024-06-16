@@ -71,7 +71,7 @@ height:  fit-content;
 }
 
 .imgt{
-    width: 50%;
+    width: 25%;
     
 }
 
@@ -135,7 +135,7 @@ p{
     margin-top: 3%;
     
 }
-button,.botao,.botao2{
+button,.botao{
     border: none;
     width:fit-content;
     height: 100%;
@@ -147,7 +147,7 @@ button,.botao,.botao2{
     ;
    }
   
-botao
+
 .centro{
     width: 100%;
     height: 30%;
@@ -244,10 +244,6 @@ footer{
     margin-left: 20%;
 }
 
-.botao{
-    align-self: center;
-}
-
 .titulo{
     font-size: 300%;
 }
@@ -279,7 +275,7 @@ td{font-size: 130%;
     margin-left: 5%;
 }
 
-.botao,.botao2{
+.botao{
     margin-left: 15%;
     text-align: center;
 }
@@ -386,7 +382,7 @@ table{
     width: 100%;
     top: 10%;
     ;
-    font-size: 15px
+    font-size: 120%
     ;
     color: aliceblue;
 }
