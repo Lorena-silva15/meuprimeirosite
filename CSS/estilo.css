@@ -15,7 +15,9 @@ body,html{
 
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 main{
     background-color: rgb(73, 149, 235);
     height: fit-content;
@@ -33,18 +35,26 @@ main{
 .menu{
     text-align: center;
     width: 100%;
+   
     
 }
 
 
 
 .logo{
-    width: 30%;
+    width: 20%;
+    height: 10%;
   text-align: center;
+  
    
 }
 
+.logoi{
+    width: 90%;
+    height: 10%;
+  text-align: center;
 
+}
 
 
 .persona{
@@ -191,6 +201,7 @@ button,.botao{
 header{
     background-color: rgba(179, 252, 255, 0.678);
     text-align: center;
+    z-index: 1000;
     
 
     height:fit-content;
@@ -242,6 +253,11 @@ footer{
 
  .cabecalho{
     text-align: center;
+
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+    margin-top: 0%;
  }
 
 .data{
@@ -484,5 +500,8 @@ h1{
 
 
 
+}
 
+#pixar{
+ margin-top: 30%;
 }
