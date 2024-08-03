@@ -1,6 +1,8 @@
 
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-image: linear-gradient(rgb(62, 170, 233),rgba(62, 170, 233, 0.678),rgb(57, 129, 223));
