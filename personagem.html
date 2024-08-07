@@ -16,7 +16,7 @@
     <title>Personagens</title>
 </head>
     
-<body>
+<body onresize="mudouTamanho()">
     <header  > 
         <div ><a href="./index.html"> <img  class="logo" src="img/logoupro.png" alt=""></a>
           
@@ -208,6 +208,31 @@
         2024 <br>
         Direitos autorais: Disney/Studios Pixar
     </footer>
+    <script>
+
+
+        function mudouTamanho(){
+           if (window.innerWidth >=1550){
+              itens.style.display='block'
+        
+           } 
+           else {
+              itens.style.display='none'            }
+        }
+
+        function clickMenu() {
+           if (itens.style.display=='block') {
+              itens.style.display= 'none'
+           }
+           else{
+              itens.style.display='block'
+              
+           }
+
+
+           
+        }
+    </script> 
 
 
     
