@@ -22,7 +22,7 @@ header{
 
 
 #burgue{
-    background-color: ;
+    color: aliceblue;
     width: 100%;;
     text-align:left ;
     font-size: 200%;
@@ -199,7 +199,9 @@ div{
 
 
 
-
+nav{
+    display: inline;
+}
 
  
 
@@ -240,6 +242,7 @@ td{font-size: 130%;
 }
 
 
+   
 
 
 
