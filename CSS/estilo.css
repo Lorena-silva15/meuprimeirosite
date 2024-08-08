@@ -193,11 +193,29 @@ footer{
 
 
 
-div{
+di{
     text-align: center;
+    margin: 5%;
+}
+
+.radio{
+    margin: 5%;
+}
+
+.input1{
+    width: 80%;
+    background-color: aliceblue;
+    border-color: aliceblue;
 }
 
 
+.radio{
+    text-align: left;
+}
+.check{
+    text-align: left;
+    margin-left: 5%;
+}
 
 nav{
     display: inline;
