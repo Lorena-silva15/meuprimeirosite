@@ -163,7 +163,10 @@ section{
 
 }
 
-
+.cont{
+    height: fit-content;
+    text-align: center;
+}
 
 footer{
     text-align: center;
@@ -193,29 +196,41 @@ footer{
 
 
 
-di{
-    text-align: center;
-    margin: 5%;
+form{
+    background-color: rgb(183, 221, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    padding: 2%;
+    margin-bottom: 10%;
+    border-radius: 24%;
+    ;
+
+
 }
 
-.radio{
-    margin: 5%;
+.text{
+  text-align: center;
+  
+  margin-left: 10%;
 }
 
 .input1{
-    width: 80%;
-    background-color: aliceblue;
-    border-color: aliceblue;
+
+    border-color: rgb(92, 119, 207);
+    width: 100%;
 }
+
 
 
 .radio{
     text-align: left;
+    margin-left: 10%;
 }
 .check{
     text-align: left;
-    margin-left: 5%;
+    margin-left: 10%;
 }
+
 
 nav{
     display: inline;
